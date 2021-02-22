@@ -1,0 +1,230 @@
+@font-face {
+  font-family: "Monospace 821";
+  src: url("Bitstream - Monospac821 BT Roman.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Favorit";
+  src: url("ABCFavorit-Bold-Trial.woff") format("woff");
+}
+
+
+
+.box{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+
+}
+
+.box:hover{
+ background-color: red;
+}
+
+.box2{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+
+}
+
+.box2:hover{
+ background-color: yellow;
+}
+
+.box3{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box3:hover{
+	background-color: #39FF14;
+}
+
+.box4{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box4:hover{
+	background-color: #bc13fe;
+}
+
+.box5{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box5:hover{
+	background-color: #011ffd;
+}
+
+.box6{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box6:hover{
+	background-color: #13ca91;
+}
+
+.box7{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box7:hover{
+	background-color: #f000ff;
+}
+
+.box8{
+	width: 95%;
+	border: solid 1px black;
+	margin: auto;
+	margin-top: 1rem;
+	font-family: "Monospace 821";
+	color: black;
+	font-size: 1.5rem;
+    padding: .5rem;
+}
+
+.box8:hover{
+	background-color: #FF5F1F;
+}
+
+
+a{
+	text-decoration: none;
+}
+
+
+
+.container{
+	margin-top: 5rem;
+
+}
+
+
+.footer{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 12rem;
+	font-size: 2rem;
+	margin-left: 2.3%;
+	column-gap: 64%;
+}
+
+.footer2{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 3.5rem;
+	font-size: 2rem;
+	margin-left: 2.3%;
+	column-gap: 64%;
+}
+
+
+
+@media only screen and (max-width: 1200px) {
+.footer{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 3rem;
+	font-size: 2rem;
+	margin-left: 3%;
+	column-gap: 46%;
+}
+
+body{
+	background-origin: yellow;
+}
+
+.footer2{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+	font-size: 2rem;
+	margin-left: 3%%;
+	column-gap: 46%;
+}
+
+.container{
+	margin-top: 6rem;
+}
+
+}
+
+@media only screen and (max-width: 755px) {
+
+.footer{
+    column-gap: 15%
+}
+
+.footer2{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+	font-size: 2rem;
+	margin-left: 3%%;
+	column-gap: 15%;
+}
+
+body{
+	background-color: yellow;
+}
+
+
+}
+
+@media only screen and (max-width: 376px) {
+body{
+	background-color: red;
+	}
+}
+
+
