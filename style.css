@@ -8,6 +8,9 @@
   src: url("ABCFavorit-Bold-Trial.woff") format("woff");
 }
 
+body{
+	overflow-x: hidden;
+}
 
 
 .box{
@@ -19,117 +22,130 @@
 	color: black;
 	font-size: 1.5rem;
     padding: .5rem;
-
 }
 
-.box:hover{
+.pgone1{
+	animation: pgone1 15s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgone1{
+	0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%;
+    }
+}
+
+.pgone2{
+	animation: pgone2 15s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgone2{
+	0%{
+		right: 100%;
+	}
+
+    100%{
+    	right: -100%;
+    }
+}
+
+.pgone3{
+	animation: pgone3 16s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgone3{
+	0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%;
+    }
+}
+
+.pgone4{
+	animation: pgone4 17s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgone4{
+	0%{
+		right: 100%;
+	}
+
+    100%{
+    	right: -100%;
+    }
+}
+
+.pgone5{
+	animation: pgone5 15s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgone5{
+	0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%;
+    }
+}
+
+
+
+.one:hover{
  background-color: red;
 }
 
-.box2{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-
-}
-
-.box2:hover{
+.two:hover{
  background-color: yellow;
 }
 
-.box3{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-}
-
-.box3:hover{
+.three:hover{
 	background-color: #39FF14;
 }
 
-.box4{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-}
-
-.box4:hover{
+.four:hover{
 	background-color: #bc13fe;
 }
 
-.box5{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-}
-
-.box5:hover{
+.five:hover{
 	background-color: #011ffd;
 }
 
-.box6{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
+.six:hover{
+	background-color: green;
 }
 
-.box6:hover{
+.seven:hover{
 	background-color: #13ca91;
 }
 
-.box7{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-}
 
-.box7:hover{
+.eight:hover{
 	background-color: #f000ff;
 }
 
-.box8{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
+
+.nine:hover{
+	background-color: #FF5F1F;
 }
 
-.box8:hover{
-	background-color: #FF5F1F;
+.ten:hover{
+	background-color: orange;
 }
 
 
@@ -178,9 +194,7 @@ a{
 	column-gap: 46%;
 }
 
-body{
-	background-color: yellow;
-}
+
 
 .footer2{
 	font-family: "Favorit";
@@ -215,19 +229,36 @@ body{
 	column-gap: 15%;
 }
 
-body{
-	background-color: red;
-}
 
 }
-
-
 
 @media screen and (max-width: 376px) {
+  .box{
+  	font-size: 16px;
+  	height: 10rem;
+  	width: 90%;
+  }
 
-body{
-	background-color: blue;
-	}
+  .container{
+  	margin-top: 2rem;
+  }
+
+  p{
+  	vertical-align: middle;
+  }
+
+  .footer{
+  font-size: 1rem;
+  margin-top: .9rem;
+    margin-bottom: none;
+  }
+
+   .footer2{
+    font-size: 1rem;
+    
+     
+  }
+
 }
 
 
