@@ -1,729 +1,774 @@
 @font-face {
-  font-family: "Monospace 821";
-  src: url("Bitstream - Monospac821 BT Roman.woff") format("woff");
+     font-family: "Monospace 821";
+     src: url("Bitstream - Monospac821 BT Roman.woff") format("woff");
+}
+ @font-face {
+     font-family: "Favorit";
+     src: url("ABCFavorit-Bold-Trial.woff") format("woff");
+}
+ body{
+     overflow-x: hidden;
+}
+ .box{
+     width: 95%;
+     border: solid 1px black;
+     margin: auto;
+     margin-top: 1rem;
+     font-family: "Monospace 821";
+     color: black;
+     font-size: 1.5rem;
+     padding: .5rem;
+     padding-left: 2rem;
+}
+ a{
+     text-decoration: none;
+}
+ .container{
+     margin-top: 5rem;
+}
+ .containerpg1{
+     margin-top: none;
+     overflow-y: hidden;
+}
+ .footer1{
+     font-family: "Favorit";
+     display: flex;
+     flex-direction: row;
+     margin-top: 12rem;
+     font-size: 2rem;
+     margin-left: 2.3%;
+     column-gap: 31%;
+}
+ .footer2{
+     font-family: "Favorit";
+     display: flex;
+     flex-direction: row;
+     margin-top: 3.5rem;
+     font-size: 2rem;
+     margin-left: 2.3%;
+     column-gap: 31%;
 }
-
-@font-face {
-  font-family: "Favorit";
-  src: url("ABCFavorit-Bold-Trial.woff") format("woff");
-}
-
-body{
-	overflow-x: hidden;
-}
-
-
-
-.box{
-	width: 95%;
-	border: solid 1px black;
-	margin: auto;
-	margin-top: 1rem;
-	font-family: "Monospace 821";
-	color: black;
-	font-size: 1.5rem;
-    padding: .5rem;
-}
-
-
-
-.pgone{
-	animation: pgone1 15s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-a{
-	text-decoration: none;
-}
-
-
-.container{
-	margin-top: 5rem;
-}
-
-.containerpg1{
-	margin-top: none;
-	overflow-y: hidden;
-}
-
-
-.footer1{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 12rem;
-	font-size: 2rem;
-	margin-left: 2.3%;
-	column-gap: 31%;
-}
-
-.footer2{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 3.5rem;
-	font-size: 2rem;
-	margin-left: 2.3%;
-	column-gap: 31%;
-}
-
-.footer3{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 3.5rem;
-	font-size: 2rem;
-	margin-left: 2.3%;
-	column-gap: 31%;
-}
-
-.footermargin{
-	margin-top: 16rem;
-}
-
-.abc{
-		font-family: "Monospace 821";
-
-}
-
-@keyframes pgone1{
-	0%{
-		bottom: 65rem;
-	}
-
-    100%{
-    	bottom: -100rem;
-    }
-}
-
-
-.pgtwo1{
-	animation: pgtwo1 15s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgtwo1{
-	0%{
-		left: 100%;
-	}
-
-    100%{
-    	left: -100%
-    }
-}
-
-.pgtwo2{
-	animation: pgtwo2 13s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgtwo2{
-		0%{
-		right: 100%;
-	}
-
-    100%{
-    	right: -100%
-    }
-}
-
-.pgtwo3{
-	animation: pgtwo3 10s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgtwo3{
-	0%{
-		left: 100%;
-	}
-
-    100%{
-    	left: -100%
-    }
-}
-
-.pgtwo4{
-	animation: pgtwo4 16s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-
-@keyframes pgtwo4{
-		0%{
-		right: 100%;
-	}
-
-    100%{
-    	right: -100%
-    }
-}
-
-.pgtwo5{
-	animation: pgtwo5 12s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgtwo5{
-		0%{
-		left: 100%;
-	}
-
-    100%{
-    	left: -100%
-    }
-}
-
-.pgtwo6{
-	animation: pgtwo5 15s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgtwo5{
-	0%{
-		right: 100%;
-	}
-
-    100%{
-    	right: -100%
-    }
-}
-
-.pgthree1{
-	animation: pgthree1 1s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree1{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree2{
-	animation: pgthree2 3s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree2{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree3{
-	animation: pgthree3 2s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree3{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree4{
-	animation: pgthree4 6s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree4{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree5{
-	animation: pgthree5 2s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree5{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree6{
-	animation: pgthree6 1s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree6{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgthree7{
-	animation: pgthree7 14s infinite;
-	animation-timing-function: linear;
-	position: relative;
-}
-
-@keyframes pgthree7{
-	0%{
-		top: 0rem;
-	}
-
-	25%{
-		top: -4rem;
-	}
-
-	50%{
-		top: 0rem;
-	}
-
-	75%{
-		top: 4rem;
-	}
-
-	100%{
-		top: 0rem;
-	}
-}
-
-.pgfour1{
-	animation: pgfour1 1s infinite;
-}
-
-@keyframes pgfour1{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour2{
-	animation: pgfour2 3s infinite;
-}
-
-@keyframes pgfour2{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour3{
-	animation: pgfour3 2s infinite;
-}
-
-@keyframes pgfour3{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour4{
-	animation: pgfour4 4s infinite;
-}
-
-@keyframes pgfour4{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour5{
-	animation: pgfour5 1s infinite;
-}
-
-@keyframes pgfour5{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour6{
-	animation: pgfour6 2s infinite;
-}
-
-@keyframes pgfour6{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.pgfour7{
-	animation: pgfour7 4s infinite;
-}
-
-@keyframes pgfour7{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-
-.pgfour8{
-	animation: pgfour8 3s infinite;
-}
-
-@keyframes pgfour8{
-	0%{
-		opacity: 100%
-	}
-
-	50%{
-		opacity: 0%;
-	}
-
-	100%{
-		opacity: 100%;
-	}
-}
-
-.one:hover{
- background-color: red;
-}
-
-.two:hover{
- background-color: yellow;
-}
-
-.three:hover{
-	background-color: #39FF14;
-}
-
-.four:hover{
-	background-color: #bc13fe;
-}
-
-.five:hover{
-	background-color: #011ffd;
-}
-
-.six:hover{
-	background-color: green;
-}
-
-.seven:hover{
-	background-color: #13ca91;
-}
-
-
-.eight:hover{
-	background-color: #f000ff;
-}
-
-
-.nine:hover{
-	background-color: #FF5F1F;
-}
-
-.ten:hover{
-	background-color: orange;
-}
-
-
-
-
-
-@media  screen and (max-width: 1200px) {
-.footer1{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 3rem;
-	font-size: 2rem;
-	margin-left: 3%;
-	column-gap: 20%;
-}
-
-
-.footer2{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 1rem;
-	font-size: 2rem;
-	margin-left: 3%;
-	column-gap: 20%;
-}
-
-.footer3{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 1rem;
-	font-size: 2rem;
-	margin-left: 3%;
-	column-gap: 20%;
-}
-
-
-.container{
-	margin-top: 6rem;
-}
-
-.containerpg1{
-	margin-top: none;
-	overflow-x: hidden;
-}
-
-
-}
-
-
-@media screen and (max-width: 755px) {
-
-.footer1{
-    column-gap: 10%;
-    font-size: 1.7rem;
-}
-
-.footer2{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: 1rem;
-	font-size: 1.7rem;
-	margin-left: 3%;
-	column-gap: 10%;
-}
-
-.footer3{
-	font-family: "Favorit";
-	display: flex;
-	flex-direction: row;
-	margin-top: -4rem;
-	font-size: 1.7rem;
-	margin-left: 3%;
-	column-gap: 10%;
-}
-
-  .containerpg1{
-  	margin-top: none;
-  	margin-bottom: -5rem;
-  	position: static;
-  	overflow-y: hidden;
-  	overflow-x: hidden;
-  }
-
-}
-
-@media screen and (max-width: 376px) {
-  .box{
-  	font-size: 16px;
-  	height: 10rem;
-  	width: 90%;
-  }
-
-  .footer1{
-  column-gap: 19%;
-  font-size: 1rem;
-  margin-top: .9rem;
-  margin-bottom: none;
-
-  }
-
-
-  .footer2{
-  	margin-top: .9rem;
-  	font-size: 1rem;
-  	column-gap: 19%;
-  }
-
  .footer3{
-  	margin-top: -5rem;
-  	font-size: 1rem;
-  	column-gap: 19%;
-  }
-
-  .containerpg1{
-  	margin-top: none;
-  	margin-bottom: -5rem;
-  	position: static;
-  	overflow-y: hidden;
-  	overflow-x: hidden;
-  }
-
-
-  .container{
-  	margin-top: 0rem;
-  	margin-bottom: .9rem;
-  	position: static;
-  	overflow-y: hidden;
-  	overflow-x: hidden;
-  }
-
-  
-
-  p{
-  	vertical-align: middle;
-  }
-
-
-
-  body{
-	overflow-x: hidden;
+     font-family: "Favorit";
+     display: flex;
+     flex-direction: row;
+     margin-top: 3.5rem;
+     font-size: 2rem;
+     margin-left: 2.3%;
+     column-gap: 31%;
 }
-
-
-
+ .footermargin{
+     margin-top: 16rem;
 }
-
+ .abc{
+     font-family: "Monospace 821";
+}
+ .pgone{
+     animation: pgone 15s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ @keyframes pgone{
+     0%{
+         bottom: 65rem;
+    }
+     100%{
+         bottom: -100rem;
+    }
+}
+ .pgtwo1{
+     animation: pgtwo1 15s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ .pgtwo2{
+     animation: pgtwo2 13s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ .pgtwo3{
+     animation: pgtwo1 10s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ .pgtwo4{
+     animation: pgtwo2 16s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ .pgtwo5{
+     animation: pgtwo1 12s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ .pgtwo6{
+     animation: pgtwo2 15s infinite;
+     position: relative;
+     animation-timing-function: linear;
+}
+ @keyframes pgtwo1{
+     0%{
+         left: 100%;
+    }
+     100%{
+         left: -100% 
+    }
+}
+ @keyframes pgtwo2{
+     0%{
+         right: 100%;
+    }
+     100%{
+         right: -100% 
+    }
+}
+ .pgthree1{
+     animation: pgthree 1s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree2{
+     animation: pgthree 3s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree3{
+     animation: pgthree 2s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree4{
+     animation: pgthree 4s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree5{
+     animation: pgthree 2s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree6{
+     animation: pgthree 1s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgthree7{
+     animation: pgthree 14s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ @keyframes pgthree{
+     0%{
+         top: 0rem;
+    }
+     25%{
+         top: -4rem;
+    }
+     50%{
+         top: 0rem;
+    }
+     75%{
+         top: 4rem;
+    }
+     100%{
+         top: 0rem;
+    }
+}
+ .pgfour1{
+     animation: pgfour 1s infinite;
+}
+ .pgfour2{
+     animation: pgfour 3s infinite;
+}
+ .pgfour3{
+     animation: pgfour 2s infinite;
+}
+ .pgfour4{
+     animation: pgfour 4s infinite;
+}
+ .pgfour5{
+     animation: pgfour 1s infinite;
+}
+ .pgfour6{
+     animation: pgfour 2s infinite;
+}
+ .pgfour7{
+     animation: pgfour 4s infinite;
+}
+ .pgfour8{
+     animation: pgfour 3s infinite;
+}
+ @keyframes pgfour{
+     0%{
+         opacity: 100% 
+    }
+     50%{
+         opacity: 0%;
+    }
+     100%{
+         opacity: 100%;
+    }
+}
+ .pgfive1{
+     animation: pgfive 2s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive2{
+     animation: pgfive 7s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive3{
+     animation: pgfive 2s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive4{
+     animation: pgfive 5s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive5{
+     animation: pgfive 6s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive6{
+     animation: pgfive 2s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive7{
+     animation: pgfive 4s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive8{
+     animation: pgfive 6s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgfive9{
+     animation: pgfive 3s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ @keyframes pgfive{
+     0%{
+         left: 0rem;
+    }
+     25%{
+         left: 10rem;
+    }
+     50%{
+         left:0rem;
+    }
+     75%{
+         left: -10rem;
+    }
+     100%{
+         left: 0rem;
+    }
+}
+ .pgsix1{
+     animation: pgsix 3s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix2{
+     animation: pgsix 2s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix3{
+     animation: pgsix 4s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix4{
+     animation: pgsix 6s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix5{
+     animation: pgsix 2s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix6{
+     animation: pgsix 6s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix7{
+     animation: pgsix 3s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix8{
+     animation: pgsix 2s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix9{
+     animation: pgsix 5s infinite;
+     animation-timing-function: linear;
+}
+ .pgsix10{
+     animation: pgsix 2s infinite;
+     animation-timing-function: linear;
+}
+ @keyframes pgsix{
+     0%{
+         transform: rotateZ( 15deg);
+    }
+     50%{
+         transform: rotateZ(-15deg);
+    }
+     100%{
+         transform: rotateZ(15deg);
+    }
+}
+ .pgseven1{
+     animation: pgseven 2s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven2{
+     animation: pgseven 1s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven3{
+     animation: pgseven 4s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven4{
+     animation: pgseven 5s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven5{
+     animation: pgseven 3s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven6{
+     animation: pgseven 2s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven7{
+     animation: pgseven 6s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven8{
+     animation: pgseven 3s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven9{
+     animation: pgseven 1s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven10{
+     animation: pgseven 3s infinite;
+     animation-timing-function: ease;
+}
+ .pgseven11{
+     animation: pgseven 2s infinite;
+     animation-timing-function: ease;
+}
+ @keyframes pgseven {
+     0% {
+         transform: scale(1,1) translateY(0);
+    }
+     10% {
+         transform: scale(1.1,.9) translateY(0);
+    }
+     30% {
+         transform: scale(.9,1.1) translateY(-100px);
+    }
+     50% {
+         transform: scale(1,1) translateY(0);
+    }
+     57% {
+         transform: scale(1,1) translateY(-7px);
+    }
+     64% {
+         transform: scale(1,1) translateY(0);
+    }
+     100% {
+         transform: scale(1,1) translateY(0);
+    }
+}
+ .pgeight1{
+     animation: pgeight 4s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight2{
+     animation: pgeight 7s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight3{
+     animation: pgeight 5s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight4{
+     animation: pgeight 3s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight5{
+     animation: pgeight 6s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight6{
+     animation: pgeight 4s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight7{
+     animation: pgeight 7s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight8{
+     animation: pgeight 4s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight9{
+     animation: pgeight 5s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight10{
+     animation: pgeight 3s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight11{
+     animation: pgeight 7s infinite;
+     animation-timing-function: linear;
+}
+ .pgeight12{
+     animation: pgeight 4s infinite;
+     animation-timing-function: linear;
+}
+ @keyframes pgeight {
+     from {
+         transform: rotate(0deg) translateX(150px) rotate(0deg);
+    }
+     to {
+         transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    }
+}
+ .pgnine1{
+     animation: pgnine 12s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine2{
+     animation: pgnine 10s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine3{
+     animation: pgnine 8s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine4{
+     animation: pgnine 15s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine5{
+     animation: pgnine 13s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine6{
+     animation: pgnine 9s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine7{
+     animation: pgnine 15s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine8{
+     animation: pgnine 10s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine9{
+     animation: pgnine 12s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine10{
+     animation: pgnine 16s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine11{
+     animation: pgnine 8s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine12{
+     animation: pgnine 16s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgnine13{
+     animation: pgnine 10s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ @keyframes pgnine{
+     0%{
+         transition: rotateY(0deg);
+    }
+     50%{
+         transform: rotateY(360deg);
+    }
+     100%{
+         transform: rotateY(0deg);
+    }
+}
+ .pgten1{
+     animation: pgten 9s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten2{
+     animation: pgten2 12s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten3{
+     animation: pgten 10s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten4{
+     animation: pgten2 14s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten5{
+     animation: pgten 9s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten6{
+     animation: pgten2 8s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten7{
+     animation: pgten 12s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten8{
+     animation: pgten2 14s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten9{
+     animation: pgten 13s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten10{
+     animation: pgten2 16s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten11{
+     animation: pgten 9s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten12{
+     animation: pgten2 8s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten13{
+     animation: pgten 15s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ .pgten14{
+     animation: pgten2 12s infinite;
+     animation-timing-function: linear;
+     position: relative;
+}
+ @keyframes pgten{
+     0%{
+         transform: rotateZ( 15deg);
+         left: 0%;
+         opacity: 100% 
+    }
+     50%{
+         transform: rotateZ(-15deg);
+         left: 100%;
+         opacity:0%;
+    }
+     100%{
+         transform: rotateZ(15deg);
+         left: 0%;
+         opacity: 100%;
+    }
+}
+ @keyframes pgten2{
+     0%{
+         transform: rotateZ( 15deg);
+         right: 0%;
+         opacity: 100% 
+    }
+     50%{
+         transform: rotateZ(-15deg);
+         right: 100%;
+         opacity:0%;
+    }
+     100%{
+         transform: rotateZ(15deg);
+         right: 0%;
+         opacity: 100%;
+    }
+}
+ .one:hover{
+     background-color: red;
+}
+ .two:hover{
+     background-color: yellow;
+}
+ .three:hover{
+     background-color: #39FF14;
+}
+ .four:hover{
+     background-color: #bc13fe;
+}
+ .five:hover{
+     background-color: #011ffd;
+}
+ .six:hover{
+     background-color: green;
+}
+ .seven:hover{
+     background-color: #13ca91;
+}
+ .eight:hover{
+     background-color: #f000ff;
+}
+ .nine:hover{
+     background-color: #FF5F1F;
+}
+ .ten:hover{
+     background-color: orange;
+}
+ @media screen and (max-width: 1200px) {
+     .footer1{
+         font-family: "Favorit";
+         display: flex;
+         flex-direction: row;
+         margin-top: 3rem;
+         font-size: 2rem;
+         margin-left: 3%;
+         column-gap: 20%;
+    }
+     .footer2{
+         font-family: "Favorit";
+         display: flex;
+         flex-direction: row;
+         margin-top: 1rem;
+         font-size: 2rem;
+         margin-left: 3%;
+         column-gap: 20%;
+    }
+     .footer3{
+         font-family: "Favorit";
+         display: flex;
+         flex-direction: row;
+         margin-top: 1rem;
+         font-size: 2rem;
+         margin-left: 3%;
+         column-gap: 20%;
+    }
+     .container{
+         margin-top: 6rem;
+    }
+     .containerpg1{
+         margin-top: none;
+         overflow-x: hidden;
+    }
+}
+ @media screen and (max-width: 755px) {
+     .box{
+         padding: .5rem;
+         padding-left:.5rem;
+    }
+     .footer1{
+         column-gap: 10%;
+         font-size: 1.7rem;
+    }
+     .footer2{
+         font-family: "Favorit";
+         display: flex;
+         flex-direction: row;
+         margin-top: 1rem;
+         font-size: 1.7rem;
+         margin-left: 3%;
+         column-gap: 10%;
+    }
+     .footer3{
+         font-family: "Favorit";
+         display: flex;
+         flex-direction: row;
+         margin-top: -4rem;
+         font-size: 1.7rem;
+         margin-left: 3%;
+         column-gap: 10%;
+    }
+     .containerpg1{
+         margin-top: none;
+         margin-bottom: -5rem;
+         position: static;
+         overflow-y: hidden;
+         overflow-x: hidden;
+    }
+}
+ @media screen and (max-width: 376px) {
+     .box{
+         font-size: 16px;
+         height: 10rem;
+         width: 90%;
+         padding: .5rem;
+         padding-left:.5rem;
+    }
+     .footer1{
+         column-gap: 19%;
+         font-size: 1rem;
+         margin-top: .9rem;
+         margin-bottom: none;
+    }
+     .footer2{
+         margin-top: .9rem;
+         font-size: 1rem;
+         column-gap: 19%;
+    }
+     .footer3{
+         margin-top: -5rem;
+         font-size: 1rem;
+         column-gap: 19%;
+    }
+     .containerpg1{
+         margin-top: none;
+         margin-bottom: -5rem;
+         position: static;
+         overflow-y: hidden;
+         overflow-x: hidden;
+    }
+     .container{
+         margin-top: 0rem;
+         margin-bottom: .9rem;
+         position: static;
+         overflow-y: hidden;
+         overflow-x: hidden;
+    }
+     p{
+         vertical-align: middle;
+    }
+     body{
+         overflow-x: hidden;
+    }
+}
 
