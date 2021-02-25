@@ -13,6 +13,7 @@ body{
 }
 
 
+
 .box{
 	width: 95%;
 	border: solid 1px black;
@@ -24,7 +25,7 @@ body{
     padding: .5rem;
 }
 
-.pgone1{
+.pgone{
 	animation: pgone1 15s infinite;
 	position: relative;
 	animation-timing-function: linear;
@@ -32,79 +33,451 @@ body{
 
 @keyframes pgone1{
 	0%{
-		left: 100%;
+		bottom: 65rem;
 	}
 
     100%{
-    	left: -100%;
+    	bottom: -100rem;
     }
 }
 
-.pgone2{
-	animation: pgone2 15s infinite;
+
+.pgtwo1{
+	animation: pgtwo1 15s infinite;
 	position: relative;
 	animation-timing-function: linear;
 }
 
-@keyframes pgone2{
+@keyframes pgtwo1{
+	0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%
+    }
+}
+
+.pgtwo2{
+	animation: pgtwo2 13s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgtwo2{
+		0%{
+		right: 100%;
+	}
+
+    100%{
+    	right: -100%
+    }
+}
+
+.pgtwo3{
+	animation: pgtwo3 10s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgtwo3{
+	0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%
+    }
+}
+
+.pgtwo4{
+	animation: pgtwo4 16s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgtwo4{
+		0%{
+		right: 100%;
+	}
+
+    100%{
+    	right: -100%
+    }
+}
+
+.pgtwo5{
+	animation: pgtwo5 12s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgtwo5{
+		0%{
+		left: 100%;
+	}
+
+    100%{
+    	left: -100%
+    }
+}
+
+.pgtwo6{
+	animation: pgtwo5 15s infinite;
+	position: relative;
+	animation-timing-function: linear;
+}
+
+@keyframes pgtwo5{
 	0%{
 		right: 100%;
 	}
 
     100%{
-    	right: -100%;
+    	right: -100%
     }
 }
 
-.pgone3{
-	animation: pgone3 16s infinite;
-	position: relative;
+.pgthree1{
+	animation: pgthree1 1s infinite;
 	animation-timing-function: linear;
+	position: relative;
 }
 
-@keyframes pgone3{
+@keyframes pgthree1{
 	0%{
-		left: 100%;
+		top: 0rem;
 	}
 
-    100%{
-    	left: -100%;
-    }
-}
-
-.pgone4{
-	animation: pgone4 17s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgone4{
-	0%{
-		right: 100%;
+	25%{
+		top: -4rem;
 	}
 
-    100%{
-    	right: -100%;
-    }
-}
-
-.pgone5{
-	animation: pgone5 15s infinite;
-	position: relative;
-	animation-timing-function: linear;
-}
-
-@keyframes pgone5{
-	0%{
-		left: 100%;
+	50%{
+		top: 0rem;
 	}
 
-    100%{
-    	left: -100%;
-    }
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree2{
+	animation: pgthree2 3s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree2{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree3{
+	animation: pgthree3 2s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree3{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree4{
+	animation: pgthree4 6s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree4{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree5{
+	animation: pgthree5 2s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree5{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree6{
+	animation: pgthree6 1s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree6{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgthree7{
+	animation: pgthree7 14s infinite;
+	animation-timing-function: linear;
+	position: relative;
+}
+
+@keyframes pgthree7{
+	0%{
+		top: 0rem;
+	}
+
+	25%{
+		top: -4rem;
+	}
+
+	50%{
+		top: 0rem;
+	}
+
+	75%{
+		top: 4rem;
+	}
+
+	100%{
+		top: 0rem;
+	}
+}
+
+.pgfour1{
+	animation: pgfour1 1s infinite;
+}
+
+@keyframes pgfour1{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour2{
+	animation: pgfour2 3s infinite;
+}
+
+@keyframes pgfour2{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour3{
+	animation: pgfour3 2s infinite;
+}
+
+@keyframes pgfour3{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour4{
+	animation: pgfour4 4s infinite;
+}
+
+@keyframes pgfour4{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour5{
+	animation: pgfour5 1s infinite;
+}
+
+@keyframes pgfour5{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour6{
+	animation: pgfour6 2s infinite;
+}
+
+@keyframes pgfour6{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
+
+.pgfour7{
+	animation: pgfour7 4s infinite;
+}
+
+@keyframes pgfour7{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
 }
 
 
+.pgfour8{
+	animation: pgfour8 3s infinite;
+}
+
+@keyframes pgfour8{
+	0%{
+		opacity: 100%
+	}
+
+	50%{
+		opacity: 0%;
+	}
+
+	100%{
+		opacity: 100%;
+	}
+}
 
 .one:hover{
  background-color: red;
@@ -154,14 +527,17 @@ a{
 }
 
 
-
 .container{
 	margin-top: 5rem;
+}
 
+.containerpg1{
+	margin-top: none;
+	overflow-y: hidden;
 }
 
 
-.footer{
+.footer1{
 	font-family: "Favorit";
 	display: flex;
 	flex-direction: row;
@@ -181,10 +557,24 @@ a{
 	column-gap: 64%;
 }
 
+.footer3{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 3.5rem;
+	font-size: 2rem;
+	margin-left: 2.3%;
+	column-gap: 64%;
+}
+
+.footermargin{
+	margin-top: 16rem;
+}
+
 
 
 @media  screen and (max-width: 1200px) {
-.footer{
+.footer1{
 	font-family: "Favorit";
 	display: flex;
 	flex-direction: row;
@@ -193,7 +583,6 @@ a{
 	margin-left: 3%;
 	column-gap: 46%;
 }
-
 
 
 .footer2{
@@ -206,8 +595,29 @@ a{
 	column-gap: 46%;
 }
 
+.footer3{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: 1rem;
+	font-size: 2rem;
+	margin-left: 3%;
+	column-gap: 46%;
+}
+
+
 .container{
 	margin-top: 6rem;
+}
+
+.containerpg1{
+	margin-top: none;
+	overflow-x: hidden;
+}
+
+.containerpg{
+	margin-top: none;
+	overflow-x: hidden;
 }
 
 }
@@ -215,7 +625,7 @@ a{
 
 @media screen and (max-width: 755px) {
 
-.footer{
+.footer1{
     column-gap: 15%
 }
 
@@ -229,6 +639,23 @@ a{
 	column-gap: 15%;
 }
 
+.footer3{
+	font-family: "Favorit";
+	display: flex;
+	flex-direction: row;
+	margin-top: -4rem;
+	font-size: 2rem;
+	margin-left: 3%;
+	column-gap: 15%;
+}
+
+  .containerpg1{
+  	margin-top: none;
+  	margin-bottom: -5rem;
+  	position: static;
+  	overflow-y: hidden;
+  	overflow-x: hidden;
+  }
 
 }
 
@@ -239,25 +666,52 @@ a{
   	width: 90%;
   }
 
-  .container{
-  	margin-top: 2rem;
+  .footer2{
+  	margin-top: .9rem;
+  	font-size: 1rem;
   }
+
+ .footer3{
+  	margin-top: -4rem;
+  	font-size: 1rem;
+  }
+
+  .containerpg1{
+  	margin-top: none;
+  	margin-bottom: -5rem;
+  	position: static;
+  	overflow-y: hidden;
+  	overflow-x: hidden;
+  }
+
+
+  .container{
+  	margin-top: 0rem;
+  	margin-bottom: .9rem;
+  	position: static;
+  	overflow-y: hidden;
+  	overflow-x: hidden;
+  }
+
+  
 
   p{
   	vertical-align: middle;
   }
 
-  .footer{
+  .footer1{
   font-size: 1rem;
   margin-top: .9rem;
-    margin-bottom: none;
+  margin-bottom: none;
+
   }
 
-   .footer2{
-    font-size: 1rem;
-    
-     
-  }
+
+  body{
+	overflow-x: hidden;
+}
+
+
 
 }
 
