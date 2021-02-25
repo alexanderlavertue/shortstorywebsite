@@ -37,7 +37,8 @@
      margin-top: 12rem;
      font-size: 2rem;
      margin-left: 2.3%;
-     column-gap: 31%;
+     margin-right: 2.3%;
+     justify-content: space-between;
 }
  .footer2{
      font-family: "Favorit";
@@ -46,7 +47,8 @@
      margin-top: 3.5rem;
      font-size: 2rem;
      margin-left: 2.3%;
-     column-gap: 31%;
+     margin-right: 2.3%;
+     justify-content: space-between;
 }
  .footer3{
      font-family: "Favorit";
@@ -55,7 +57,8 @@
      margin-top: 3.5rem;
      font-size: 2rem;
      margin-left: 2.3%;
-     column-gap: 31%;
+     margin-right: 2.3%;
+    justify-content: space-between;
 }
  .footermargin{
      margin-top: 16rem;
