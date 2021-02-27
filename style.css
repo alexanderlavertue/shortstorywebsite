@@ -30,35 +30,25 @@
      margin-top: none;
      overflow-y: hidden;
 }
- .footer1{
+
+.mainfooter{
      font-family: "Favorit";
      display: flex;
-     flex-direction: row;
-     margin-top: 12rem;
-     font-size: 2rem;
-     margin-left: 2.3%;
+     flex-direction: row; 
+      margin-left: 2.3%;
      margin-right: 2.3%;
      justify-content: space-between;
+    font-size: 2rem;
+}
+
+ .footer1{
+     margin-top: 12rem;
 }
  .footer2{
-     font-family: "Favorit";
-     display: flex;
-     flex-direction: row;
      margin-top: 3.5rem;
-     font-size: 2rem;
-     margin-left: 2.3%;
-     margin-right: 2.3%;
-     justify-content: space-between;
 }
  .footer3{
-     font-family: "Favorit";
-     display: flex;
-     flex-direction: row;
      margin-top: 3.5rem;
-     font-size: 2rem;
-     margin-left: 2.3%;
-     margin-right: 2.3%;
-    justify-content: space-between;
 }
  .footermargin{
      margin-top: 16rem;
@@ -66,7 +56,7 @@
  .abc{
      font-family: "Monospace 821";
 }
- .pgone{
+ .mainanimationpg1{
      animation: pgone 15s infinite;
      position: relative;
      animation-timing-function: linear;
@@ -79,35 +69,34 @@
          bottom: -100rem;
     }
 }
- .pgtwo1{
-     animation: pgtwo1 15s infinite;
+
+.mainanimation1pg2{
+     animation: pgtwo1 15s infinite linear;
      position: relative;
-     animation-timing-function: linear;
+  
+}
+.mainanimation2pg2{
+     animation: pgtwo2 15s infinite linear;
+     position: relative;
+}
+
+ .pgtwo1{
+    animation-duration: 15s;
 }
  .pgtwo2{
-     animation: pgtwo2 13s infinite;
-     position: relative;
-     animation-timing-function: linear;
+     animation-duration: 13s;
 }
  .pgtwo3{
-     animation: pgtwo1 10s infinite;
-     position: relative;
-     animation-timing-function: linear;
+     animation-duration: 11s;
 }
  .pgtwo4{
-     animation: pgtwo2 16s infinite;
-     position: relative;
-     animation-timing-function: linear;
+  animation-duration: 16s;
 }
  .pgtwo5{
-     animation: pgtwo1 12s infinite;
-     position: relative;
-     animation-timing-function: linear;
+   animation-duration: 12s;
 }
  .pgtwo6{
-     animation: pgtwo2 15s infinite;
-     position: relative;
-     animation-timing-function: linear;
+    animation-duration: 15s;
 }
  @keyframes pgtwo1{
      0%{
@@ -125,41 +114,34 @@
          right: -100% 
     }
 }
+
+.mainanimationpg3{
+    animation: pgthree 1s infinite linear;
+    position: relative;
+}
+
  .pgthree1{
-     animation: pgthree 1s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 1s;
 }
  .pgthree2{
-     animation: pgthree 3s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 3s;
 }
  .pgthree3{
-     animation: pgthree 2s infinite;
-     animation-timing-function: linear;
-     position: relative;
+   animation-duration: 2s;
 }
  .pgthree4{
-     animation: pgthree 4s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 4s;
 }
  .pgthree5{
-     animation: pgthree 2s infinite;
-     animation-timing-function: linear;
-     position: relative;
+   animation-duration: 2s;
 }
  .pgthree6{
-     animation: pgthree 1s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 1s;
 }
  .pgthree7{
-     animation: pgthree 14s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 6s;
 }
+
  @keyframes pgthree{
      0%{
          top: 0rem;
@@ -177,29 +159,34 @@
          top: 0rem;
     }
 }
+
+.mainanimationpg4{
+    animation: pgfour 1s infinite;
+}
+
  .pgfour1{
-     animation: pgfour 1s infinite;
+    animation-duration: 1s;
 }
  .pgfour2{
-     animation: pgfour 3s infinite;
+    animation-duration: 3s;
 }
  .pgfour3{
-     animation: pgfour 2s infinite;
+     animation-duration: 2s;
 }
  .pgfour4{
-     animation: pgfour 4s infinite;
+     animation-duration: 4s;
 }
  .pgfour5{
-     animation: pgfour 1s infinite;
+     animation-duration: 1s;
 }
  .pgfour6{
-     animation: pgfour 2s infinite;
+     animation-duration: 2s;
 }
  .pgfour7{
-     animation: pgfour 4s infinite;
+     animation-duration: 4s;
 }
  .pgfour8{
-     animation: pgfour 3s infinite;
+     animation-duration: 3s;
 }
  @keyframes pgfour{
      0%{
@@ -212,51 +199,40 @@
          opacity: 100%;
     }
 }
- .pgfive1{
-     animation: pgfive 2s infinite;
-     animation-timing-function: linear;
+
+.mainanimation5{
+     animation: pgfive 2s infinite linear;
      position: relative;
+}
+
+ .pgfive1{
+     animation-duration: 2s;
 }
  .pgfive2{
-     animation: pgfive 7s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 7s;
 }
  .pgfive3{
-     animation: pgfive 2s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 2s;
 }
  .pgfive4{
-     animation: pgfive 5s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 5s;
 }
  .pgfive5{
-     animation: pgfive 6s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 6s;
 }
  .pgfive6{
-     animation: pgfive 2s infinite;
-     animation-timing-function: linear;
-     position: relative;
+   animation-duration: 2s;
 }
  .pgfive7{
-     animation: pgfive 4s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 4s;
 }
  .pgfive8{
-     animation: pgfive 6s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 6s;
 }
  .pgfive9{
-     animation: pgfive 3s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 3s;
 }
+
  @keyframes pgfive{
      0%{
          left: 0rem;
@@ -274,45 +250,40 @@
          left: 0rem;
     }
 }
+
+.mainanimationpg6{
+   animation: pgsix 3s infinite linear;
+}
+
  .pgsix1{
-     animation: pgsix 3s infinite;
-     animation-timing-function: linear;
+     animation-duration: 3s;
 }
  .pgsix2{
-     animation: pgsix 2s infinite;
-     animation-timing-function: linear;
+    animation-duration: 2s;
 }
  .pgsix3{
-     animation: pgsix 4s infinite;
-     animation-timing-function: linear;
+     animation-duration: 4s;
 }
  .pgsix4{
-     animation: pgsix 6s infinite;
-     animation-timing-function: linear;
+   animation-duration: 6s;
 }
  .pgsix5{
-     animation: pgsix 2s infinite;
-     animation-timing-function: linear;
+    animation-duration: 2s;
 }
  .pgsix6{
-     animation: pgsix 6s infinite;
-     animation-timing-function: linear;
+    animation-duration: 6s;
 }
  .pgsix7{
-     animation: pgsix 3s infinite;
-     animation-timing-function: linear;
+     animation-duration: 3s;
 }
  .pgsix8{
-     animation: pgsix 2s infinite;
-     animation-timing-function: linear;
+    animation-duration: 2s;
 }
  .pgsix9{
-     animation: pgsix 5s infinite;
-     animation-timing-function: linear;
+    animation-duration: 5s;
 }
  .pgsix10{
-     animation: pgsix 2s infinite;
-     animation-timing-function: linear;
+     animation-duration: 2s;
 }
  @keyframes pgsix{
      0%{
@@ -325,49 +296,44 @@
          transform: rotateZ(15deg);
     }
 }
+
+.mainanimationpg7{
+    animation: pgseven 2s infinite ease;
+}
+
  .pgseven1{
-     animation: pgseven 2s infinite;
-     animation-timing-function: ease;
+    animation-duration: 2s;
 }
  .pgseven2{
-     animation: pgseven 1s infinite;
-     animation-timing-function: ease;
+    animation-duration: 1s;
 }
  .pgseven3{
-     animation: pgseven 4s infinite;
-     animation-timing-function: ease;
+   animation-duration: 4s;
 }
  .pgseven4{
-     animation: pgseven 5s infinite;
-     animation-timing-function: ease;
+   animation-duration: 5s;
 }
  .pgseven5{
-     animation: pgseven 3s infinite;
-     animation-timing-function: ease;
+     animation-duration: 3s;
 }
  .pgseven6{
-     animation: pgseven 2s infinite;
-     animation-timing-function: ease;
+     animation-duration: 2s;
 }
  .pgseven7{
-     animation: pgseven 6s infinite;
-     animation-timing-function: ease;
+     animation-duration: 6s;
 }
- .pgseven8{
-     animation: pgseven 3s infinite;
-     animation-timing-function: ease;
+
+.pgseven8{
+    animation-duration: 3s;
 }
  .pgseven9{
-     animation: pgseven 1s infinite;
-     animation-timing-function: ease;
+     animation-duration: 1s;
 }
  .pgseven10{
-     animation: pgseven 3s infinite;
-     animation-timing-function: ease;
+     animation-duration: 3s;
 }
  .pgseven11{
-     animation: pgseven 2s infinite;
-     animation-timing-function: ease;
+    animation-duration: 2s;
 }
  @keyframes pgseven {
      0% {
@@ -392,53 +358,46 @@
          transform: scale(1,1) translateY(0);
     }
 }
+
+.mainanimationpg8{
+      animation: pgeight 4s infinite linear;
+}
+
  .pgeight1{
-     animation: pgeight 4s infinite;
-     animation-timing-function: linear;
+     animation-duration: 4s;
 }
  .pgeight2{
-     animation: pgeight 7s infinite;
-     animation-timing-function: linear;
+     animation-duration: 7s;
 }
  .pgeight3{
-     animation: pgeight 5s infinite;
-     animation-timing-function: linear;
+     animation-duration: 5s;
 }
  .pgeight4{
-     animation: pgeight 3s infinite;
-     animation-timing-function: linear;
+     animation-duration: 3s;
 }
  .pgeight5{
-     animation: pgeight 6s infinite;
-     animation-timing-function: linear;
+     animation-duration: 6s;
 }
  .pgeight6{
-     animation: pgeight 4s infinite;
-     animation-timing-function: linear;
+     animation-duration: 4s;
 }
  .pgeight7{
-     animation: pgeight 7s infinite;
-     animation-timing-function: linear;
+   animation-duration: 7s;
 }
  .pgeight8{
-     animation: pgeight 4s infinite;
-     animation-timing-function: linear;
+     animation-duration: 4s;
 }
  .pgeight9{
-     animation: pgeight 5s infinite;
-     animation-timing-function: linear;
+     animation-duration: 5s;
 }
  .pgeight10{
-     animation: pgeight 3s infinite;
-     animation-timing-function: linear;
+     animation-duration: 3s;
 }
  .pgeight11{
-     animation: pgeight 7s infinite;
-     animation-timing-function: linear;
+     animation-duration: 7s;
 }
  .pgeight12{
-     animation: pgeight 4s infinite;
-     animation-timing-function: linear;
+     animation-duration: 4s;
 }
  @keyframes pgeight {
      from {
@@ -448,71 +407,52 @@
          transform: rotate(360deg) translateX(150px) rotate(-360deg);
     }
 }
- .pgnine1{
-     animation: pgnine 12s infinite;
-     animation-timing-function: linear;
+
+.mainanimationpg9{
+     animation: pgnine 12s infinite linear;
      position: relative;
+}
+
+ .pgnine1{
+    animation-duration: 12s;
 }
  .pgnine2{
-     animation: pgnine 10s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 10s;
 }
  .pgnine3{
-     animation: pgnine 8s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 8s;
 }
  .pgnine4{
-     animation: pgnine 15s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 15s;
 }
  .pgnine5{
-     animation: pgnine 13s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 13s;
 }
  .pgnine6{
-     animation: pgnine 9s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 9s;
 }
  .pgnine7{
-     animation: pgnine 15s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 15s;
 }
  .pgnine8{
-     animation: pgnine 10s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 10s;
 }
  .pgnine9{
-     animation: pgnine 12s infinite;
-     animation-timing-function: linear;
-     position: relative;
+    animation-duration: 13s;
 }
  .pgnine10{
-     animation: pgnine 16s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 16s;
 }
  .pgnine11{
-     animation: pgnine 8s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 8s;
 }
  .pgnine12{
-     animation: pgnine 16s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 16s;
 }
  .pgnine13{
-     animation: pgnine 10s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 10s;
 }
+
  @keyframes pgnine{
      0%{
          transition: rotateY(0deg);
@@ -524,75 +464,58 @@
          transform: rotateY(0deg);
     }
 }
+
+.mainanimation1pg10{
+     animation: pgten 9s infinite linear;
+     position: relative;   
+}
+
+.mainanimation2pg10{
+     animation: pgten2 9s infinite linear;
+     position: relative;   
+}
+
  .pgten1{
-     animation: pgten 9s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 9s;
 }
  .pgten2{
-     animation: pgten2 12s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 12s;
 }
  .pgten3{
-     animation: pgten 10s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 10s;
 }
  .pgten4{
-     animation: pgten2 14s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 14s;
 }
  .pgten5{
-     animation: pgten 9s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 9s;
 }
  .pgten6{
-     animation: pgten2 8s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 8s;
 }
  .pgten7{
-     animation: pgten 12s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 12s;
 }
  .pgten8{
-     animation: pgten2 14s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 14s;
 }
  .pgten9{
-     animation: pgten 13s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 13s;
 }
  .pgten10{
-     animation: pgten2 16s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 16s;
 }
  .pgten11{
-     animation: pgten 9s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 9s;
 }
  .pgten12{
-     animation: pgten2 8s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 8s;
 }
  .pgten13{
-     animation: pgten 15s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 15s;
 }
  .pgten14{
-     animation: pgten2 12s infinite;
-     animation-timing-function: linear;
-     position: relative;
+     animation-duration: 12s;
 }
  @keyframes pgten{
      0%{
@@ -659,31 +582,25 @@
      background-color: orange;
 }
  @media screen and (max-width: 1200px) {
-     .footer1{
-         font-family: "Favorit";
-         display: flex;
-         flex-direction: row;
-         margin-top: 3rem;
+     
+     .mainfooter{
          font-size: 2rem;
          margin-left: 3%;
+     }
+
+
+     .footer1{
+         margin-top: 3rem;
     }
      .footer2{
-         font-family: "Favorit";
-         display: flex;
-         flex-direction: row;
+     
          margin-top: 1rem;
-         font-size: 2rem;
-         margin-left: 3%;
-         column-gap: 20%;
+        
     }
      .footer3{
-         font-family: "Favorit";
-         display: flex;
-         flex-direction: row;
          margin-top: 1rem;
-         font-size: 2rem;
-         margin-left: 3%;
-         column-gap: 20%;
+        
+        
     }
      .container{
          margin-top: 6rem;
@@ -698,28 +615,21 @@
          padding: .5rem;
          padding-left:.5rem;
     }
-     .footer1{
-         column-gap: 10%;
-         font-size: 1.7rem;
+
+    .mainfooter{
+    column-gap: 10%;
+    font-size: 1.7rem;
     }
+
      .footer2{
-         font-family: "Favorit";
-         display: flex;
-         flex-direction: row;
          margin-top: 1rem;
-         font-size: 1.7rem;
-         margin-left: 3%;
-         column-gap: 10%;
+          margin-left: 3%;
     }
      .footer3{
-         font-family: "Favorit";
-         display: flex;
-         flex-direction: row;
          margin-top: -4rem;
-         font-size: 1.7rem;
          margin-left: 3%;
-         column-gap: 10%;
     }
+
      .containerpg1{
          margin-top: none;
          margin-bottom: -5rem;
@@ -736,21 +646,23 @@
          padding: .5rem;
          padding-left:.5rem;
     }
+
+    .mainfooter{
+        font-size: 1rem;
+        column-gap: 19%;
+    }
+
+
      .footer1{
-         font-size: 1rem;
          margin-top: .9rem;
          margin-bottom: none;
-         column-gap: 19%;
     }
      .footer2{
          margin-top: .9rem;
-         font-size: 1rem;
-         column-gap: 19%;
+        
     }
      .footer3{
          margin-top: -5rem;
-         font-size: 1rem;
-         column-gap: 19%;
     }
      .containerpg1{
          margin-top: none;
