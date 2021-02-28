@@ -558,10 +558,10 @@
     }
 }
  .one:hover{
-     background-color: red;
+     background-color: yellow;
 }
  .two:hover{
-     background-color: yellow;
+     background-color: red;
 }
  .three:hover{
      background-color: #41ff52;
