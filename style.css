@@ -23,6 +23,12 @@
  a{
      text-decoration: none;
 }
+
+.redul{
+    text-decoration: underline red;
+
+}
+
  .container{
      margin-top: 5rem;
 }
@@ -558,7 +564,7 @@
      background-color: yellow;
 }
  .three:hover{
-     background-color: #39FF14;
+     background-color: #41ff52;
 }
  .four:hover{
      background-color: #bc13fe;
@@ -613,7 +619,8 @@
  @media screen and (max-width: 755px) {
      .box{
          padding: .5rem;
-         padding-left:.5rem;
+         padding-left:.6rem;
+         width: 90%;
     }
 
     .mainfooter{
@@ -643,8 +650,6 @@
          font-size: 1rem;
          height: 10rem;
          width: 90%;
-         padding: .5rem;
-         padding-left:.5rem;
     }
 
     .mainfooter{
