@@ -25,7 +25,7 @@
 }
 
 .redul{
-    text-decoration: underline red;
+    color: #ff7f50;
 
 }
 
@@ -558,34 +558,34 @@
     }
 }
  .one:hover{
-     background-color: yellow;
+     background-color: #ffdac5;
 }
  .two:hover{
-     background-color: red;
+     background-color: #efff37;
 }
  .three:hover{
-     background-color: #41ff52;
+     background-color: #b2ff50
 }
  .four:hover{
-     background-color: #bc13fe;
+     background-color: #33ff54;
 }
  .five:hover{
-     background-color: #011ffd;
+     background-color: #a5ffbe;
 }
  .six:hover{
-     background-color: green;
+     background-color: #00ffb2;
 }
  .seven:hover{
-     background-color: #13ca91;
+     background-color: #00ffff;
 }
  .eight:hover{
-     background-color: #f000ff;
+     background-color: #cccbff;
 }
  .nine:hover{
-     background-color: #FF5F1F;
+     background-color: #d1d0d0;
 }
  .ten:hover{
-     background-color: orange;
+     background-color: #6c001a;
 }
  @media screen and (max-width: 1200px) {
      
