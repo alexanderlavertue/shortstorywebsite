@@ -400,7 +400,6 @@ a {
     animation-duration: 2s;
 }
 
-
 /*Where I found code https://css-tricks.com/making-css-animations-feel-natural/ */
 
 @keyframes pgseven {
@@ -478,7 +477,6 @@ a {
 .pgeight12 {
     animation-duration: 4s;
 }
-
 
 /* Where I found code https://www.useragentman.com/blog/2013/03/03/animating-circular-paths-using-css3-transitions/ */
 
