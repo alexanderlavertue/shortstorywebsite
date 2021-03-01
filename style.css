@@ -1,693 +1,796 @@
 @font-face {
-     font-family: "Monospace 821";
-     src: url("Bitstream - Monospac821 BT Roman.woff") format("woff");
-}
- @font-face {
-     font-family: "Favorit";
-     src: url("ABCFavorit-Bold-Trial.woff") format("woff");
-}
- body{
-     overflow-x: hidden;
-}
- .box{
-     width: 95%;
-     border: solid 1px black;
-     margin: auto;
-     margin-top: 1rem;
-     font-family: "Monospace 821";
-     color: black;
-     font-size: 1.5rem;
-     padding: .5rem;
-     padding-left: 2rem;
-}
- a{
-     text-decoration: none;
+    font-family: "Monospace 821";
+    src: url("Bitstream - Monospac821 BT Roman.woff") format("woff");
 }
 
-.redul{
+@font-face {
+    font-family: "Favorit";
+    src: url("ABCFavorit-Bold-Trial.woff") format("woff");
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.box {
+    width: 95%;
+    border: solid 1px black;
+    margin: auto;
+    margin-top: 1rem;
+    font-family: "Monospace 821";
+    color: black;
+    font-size: 1.5rem;
+    padding: .5rem;
+    padding-left: 2rem;
+}
+
+a {
+    text-decoration: none;
+}
+
+.red {
     color: #ff7f50;
-
 }
 
- .container{
-     margin-top: 5rem;
-}
- .containerpg1{
-     margin-top: none;
-     overflow-y: hidden;
+.container {
+    margin-top: 5rem;
 }
 
-.mainfooter{
-     font-family: "Favorit";
-     display: flex;
-     flex-direction: row; 
-      margin-left: 2.3%;
-     margin-right: 2.3%;
-     justify-content: space-between;
+.containerpg1 {
+    margin-top: none;
+    overflow-y: hidden;
+}
+
+.mainfooter {
+    font-family: "Favorit";
+    display: flex;
+    flex-direction: row;
+    margin-left: 2.3%;
+    margin-right: 2.3%;
+    justify-content: space-between;
     font-size: 2rem;
 }
 
- .footer1{
-     margin-top: 12rem;
+.footer1 {
+    margin-top: 12rem;
 }
- .footer2{
-     margin-top: 3.5rem;
+
+.footer2 {
+    margin-top: 3.5rem;
 }
- .footer3{
-     margin-top: 3.5rem;
+
+.footer3 {
+    margin-top: 3.5rem;
 }
- .footermargin{
-     margin-top: 16rem;
+
+.footermargin {
+    margin-top: 16rem;
 }
- .abc{
-     font-family: "Monospace 821";
+
+.abc {
+    font-family: "Monospace 821";
 }
- .mainanimationpg1{
-     animation: pgone 15s infinite;
-     position: relative;
-     animation-timing-function: linear;
+
+.mainanimationpg1 {
+    animation: pgone 15s infinite;
+    position: relative;
+    animation-timing-function: linear;
 }
- @keyframes pgone{
-     0%{
-         bottom: 65rem;
+
+@keyframes pgone {
+    0% {
+        bottom: 65rem;
     }
-     100%{
-         bottom: -100rem;
+    100% {
+        bottom: -100rem;
     }
 }
 
-.mainanimation1pg2{
-     animation: pgtwo1 15s infinite linear;
-     position: relative;
-  
-}
-.mainanimation2pg2{
-     animation: pgtwo2 15s infinite linear;
-     position: relative;
+.mainanimation1pg2 {
+    animation: pgtwo1 15s infinite linear;
+    position: relative;
 }
 
- .pgtwo1{
+.mainanimation2pg2 {
+    animation: pgtwo2 15s infinite linear;
+    position: relative;
+}
+
+.pgtwo1 {
     animation-duration: 15s;
 }
- .pgtwo2{
-     animation-duration: 13s;
+
+.pgtwo2 {
+    animation-duration: 13s;
 }
- .pgtwo3{
-     animation-duration: 11s;
+
+.pgtwo3 {
+    animation-duration: 11s;
 }
- .pgtwo4{
-  animation-duration: 16s;
+
+.pgtwo4 {
+    animation-duration: 16s;
 }
- .pgtwo5{
-   animation-duration: 12s;
+
+.pgtwo5 {
+    animation-duration: 12s;
 }
- .pgtwo6{
+
+.pgtwo6 {
     animation-duration: 15s;
 }
- @keyframes pgtwo1{
-     0%{
-         left: 100%;
+
+@keyframes pgtwo1 {
+    0% {
+        left: 100%;
     }
-     100%{
-         left: -100% 
-    }
-}
- @keyframes pgtwo2{
-     0%{
-         right: 100%;
-    }
-     100%{
-         right: -100% 
+    100% {
+        left: -100%
     }
 }
 
-.mainanimationpg3{
+@keyframes pgtwo2 {
+    0% {
+        right: 100%;
+    }
+    100% {
+        right: -100%
+    }
+}
+
+.mainanimationpg3 {
     animation: pgthree 1s infinite linear;
     position: relative;
 }
 
- .pgthree1{
-     animation-duration: 1s;
-}
- .pgthree2{
-    animation-duration: 3s;
-}
- .pgthree3{
-   animation-duration: 2s;
-}
- .pgthree4{
-    animation-duration: 4s;
-}
- .pgthree5{
-   animation-duration: 2s;
-}
- .pgthree6{
+.pgthree1 {
     animation-duration: 1s;
 }
- .pgthree7{
+
+.pgthree2 {
+    animation-duration: 3s;
+}
+
+.pgthree3 {
+    animation-duration: 2s;
+}
+
+.pgthree4 {
+    animation-duration: 4s;
+}
+
+.pgthree5 {
+    animation-duration: 2s;
+}
+
+.pgthree6 {
+    animation-duration: 1s;
+}
+
+.pgthree7 {
     animation-duration: 6s;
 }
 
- @keyframes pgthree{
-     0%{
-         top: 0rem;
+@keyframes pgthree {
+    0% {
+        top: 0rem;
     }
-     25%{
-         top: -4rem;
+    25% {
+        top: -4rem;
     }
-     50%{
-         top: 0rem;
+    50% {
+        top: 0rem;
     }
-     75%{
-         top: 4rem;
+    75% {
+        top: 4rem;
     }
-     100%{
-         top: 0rem;
+    100% {
+        top: 0rem;
     }
 }
 
-.mainanimationpg4{
+.mainanimationpg4 {
     animation: pgfour 1s infinite;
 }
 
- .pgfour1{
+.pgfour1 {
     animation-duration: 1s;
 }
- .pgfour2{
+
+.pgfour2 {
     animation-duration: 3s;
 }
- .pgfour3{
-     animation-duration: 2s;
-}
- .pgfour4{
-     animation-duration: 4s;
-}
- .pgfour5{
-     animation-duration: 1s;
-}
- .pgfour6{
-     animation-duration: 2s;
-}
- .pgfour7{
-     animation-duration: 4s;
-}
- .pgfour8{
-     animation-duration: 3s;
-}
- @keyframes pgfour{
-     0%{
-         opacity: 100% 
-    }
-     50%{
-         opacity: 0%;
-    }
-     100%{
-         opacity: 100%;
-    }
+
+.pgfour3 {
+    animation-duration: 2s;
 }
 
-.mainanimation5{
-     animation: pgfive 2s infinite linear;
-     position: relative;
-}
-
- .pgfive1{
-     animation-duration: 2s;
-}
- .pgfive2{
-     animation-duration: 7s;
-}
- .pgfive3{
-     animation-duration: 2s;
-}
- .pgfive4{
-    animation-duration: 5s;
-}
- .pgfive5{
-     animation-duration: 6s;
-}
- .pgfive6{
-   animation-duration: 2s;
-}
- .pgfive7{
+.pgfour4 {
     animation-duration: 4s;
 }
- .pgfive8{
-    animation-duration: 6s;
-}
- .pgfive9{
-     animation-duration: 3s;
+
+.pgfour5 {
+    animation-duration: 1s;
 }
 
- @keyframes pgfive{
-     0%{
-         left: 0rem;
+.pgfour6 {
+    animation-duration: 2s;
+}
+
+.pgfour7 {
+    animation-duration: 4s;
+}
+
+.pgfour8 {
+    animation-duration: 3s;
+}
+
+@keyframes pgfour {
+    0% {
+        opacity: 100%
     }
-     25%{
-         left: 10rem;
+    50% {
+        opacity: 0%;
     }
-     50%{
-         left:0rem;
-    }
-     75%{
-         left: -10rem;
-    }
-     100%{
-         left: 0rem;
+    100% {
+        opacity: 100%;
     }
 }
 
-.mainanimationpg6{
-   animation: pgsix 3s infinite linear;
+.mainanimation5 {
+    animation: pgfive 2s infinite linear;
+    position: relative;
 }
 
- .pgsix1{
-     animation-duration: 3s;
-}
- .pgsix2{
+.pgfive1 {
     animation-duration: 2s;
 }
- .pgsix3{
-     animation-duration: 4s;
+
+.pgfive2 {
+    animation-duration: 7s;
 }
- .pgsix4{
-   animation-duration: 6s;
-}
- .pgsix5{
+
+.pgfive3 {
     animation-duration: 2s;
 }
- .pgsix6{
-    animation-duration: 6s;
-}
- .pgsix7{
-     animation-duration: 3s;
-}
- .pgsix8{
-    animation-duration: 2s;
-}
- .pgsix9{
+
+.pgfive4 {
     animation-duration: 5s;
 }
- .pgsix10{
-     animation-duration: 2s;
+
+.pgfive5 {
+    animation-duration: 6s;
 }
- @keyframes pgsix{
-     0%{
-         transform: rotateZ( 15deg);
+
+.pgfive6 {
+    animation-duration: 2s;
+}
+
+.pgfive7 {
+    animation-duration: 4s;
+}
+
+.pgfive8 {
+    animation-duration: 6s;
+}
+
+.pgfive9 {
+    animation-duration: 3s;
+}
+
+@keyframes pgfive {
+    0% {
+        left: 0rem;
     }
-     50%{
-         transform: rotateZ(-15deg);
+    25% {
+        left: 10rem;
     }
-     100%{
-         transform: rotateZ(15deg);
+    50% {
+        left: 0rem;
+    }
+    75% {
+        left: -10rem;
+    }
+    100% {
+        left: 0rem;
     }
 }
 
-.mainanimationpg7{
+.mainanimationpg6 {
+    animation: pgsix 3s infinite linear;
+}
+
+.pgsix1 {
+    animation-duration: 3s;
+}
+
+.pgsix2 {
+    animation-duration: 2s;
+}
+
+.pgsix3 {
+    animation-duration: 4s;
+}
+
+.pgsix4 {
+    animation-duration: 6s;
+}
+
+.pgsix5 {
+    animation-duration: 2s;
+}
+
+.pgsix6 {
+    animation-duration: 6s;
+}
+
+.pgsix7 {
+    animation-duration: 3s;
+}
+
+.pgsix8 {
+    animation-duration: 2s;
+}
+
+.pgsix9 {
+    animation-duration: 5s;
+}
+
+.pgsix10 {
+    animation-duration: 2s;
+}
+
+@keyframes pgsix {
+    0% {
+        transform: rotateZ( 15deg);
+    }
+    50% {
+        transform: rotateZ(-15deg);
+    }
+    100% {
+        transform: rotateZ(15deg);
+    }
+}
+
+.mainanimationpg7 {
     animation: pgseven 2s infinite ease;
 }
 
- .pgseven1{
+.pgseven1 {
     animation-duration: 2s;
 }
- .pgseven2{
+
+.pgseven2 {
     animation-duration: 1s;
 }
- .pgseven3{
-   animation-duration: 4s;
-}
- .pgseven4{
-   animation-duration: 5s;
-}
- .pgseven5{
-     animation-duration: 3s;
-}
- .pgseven6{
-     animation-duration: 2s;
-}
- .pgseven7{
-     animation-duration: 6s;
+
+.pgseven3 {
+    animation-duration: 4s;
 }
 
-.pgseven8{
+.pgseven4 {
+    animation-duration: 5s;
+}
+
+.pgseven5 {
     animation-duration: 3s;
 }
- .pgseven9{
-     animation-duration: 1s;
-}
- .pgseven10{
-     animation-duration: 3s;
-}
- .pgseven11{
+
+.pgseven6 {
     animation-duration: 2s;
 }
- @keyframes pgseven {
-     0% {
-         transform: scale(1,1) translateY(0);
+
+.pgseven7 {
+    animation-duration: 6s;
+}
+
+.pgseven8 {
+    animation-duration: 3s;
+}
+
+.pgseven9 {
+    animation-duration: 1s;
+}
+
+.pgseven10 {
+    animation-duration: 3s;
+}
+
+.pgseven11 {
+    animation-duration: 2s;
+}
+
+
+/*Where I found code https://css-tricks.com/making-css-animations-feel-natural/ */
+
+@keyframes pgseven {
+    0% {
+        transform: scale(1, 1) translateY(0);
     }
-     10% {
-         transform: scale(1.1,.9) translateY(0);
+    10% {
+        transform: scale(1.1, .9) translateY(0);
     }
-     30% {
-         transform: scale(.9,1.1) translateY(-100px);
+    30% {
+        transform: scale(.9, 1.1) translateY(-100px);
     }
-     50% {
-         transform: scale(1,1) translateY(0);
+    50% {
+        transform: scale(1, 1) translateY(0);
     }
-     57% {
-         transform: scale(1,1) translateY(-7px);
+    57% {
+        transform: scale(1, 1) translateY(-7px);
     }
-     64% {
-         transform: scale(1,1) translateY(0);
+    64% {
+        transform: scale(1, 1) translateY(0);
     }
-     100% {
-         transform: scale(1,1) translateY(0);
+    100% {
+        transform: scale(1, 1) translateY(0);
     }
 }
 
-.mainanimationpg8{
-      animation: pgeight 4s infinite linear;
+.mainanimationpg8 {
+    animation: pgeight 4s infinite linear;
 }
 
- .pgeight1{
-     animation-duration: 4s;
+.pgeight1 {
+    animation-duration: 4s;
 }
- .pgeight2{
-     animation-duration: 7s;
+
+.pgeight2 {
+    animation-duration: 7s;
 }
- .pgeight3{
-     animation-duration: 5s;
+
+.pgeight3 {
+    animation-duration: 5s;
 }
- .pgeight4{
-     animation-duration: 3s;
+
+.pgeight4 {
+    animation-duration: 3s;
 }
- .pgeight5{
-     animation-duration: 6s;
+
+.pgeight5 {
+    animation-duration: 6s;
 }
- .pgeight6{
-     animation-duration: 4s;
+
+.pgeight6 {
+    animation-duration: 4s;
 }
- .pgeight7{
-   animation-duration: 7s;
+
+.pgeight7 {
+    animation-duration: 7s;
 }
- .pgeight8{
-     animation-duration: 4s;
+
+.pgeight8 {
+    animation-duration: 4s;
 }
- .pgeight9{
-     animation-duration: 5s;
+
+.pgeight9 {
+    animation-duration: 5s;
 }
- .pgeight10{
-     animation-duration: 3s;
+
+.pgeight10 {
+    animation-duration: 3s;
 }
- .pgeight11{
-     animation-duration: 7s;
+
+.pgeight11 {
+    animation-duration: 7s;
 }
- .pgeight12{
-     animation-duration: 4s;
+
+.pgeight12 {
+    animation-duration: 4s;
 }
- @keyframes pgeight {
-     from {
-         transform: rotate(0deg) translateX(150px) rotate(0deg);
+
+
+/* Where I found code https://www.useragentman.com/blog/2013/03/03/animating-circular-paths-using-css3-transitions/ */
+
+@keyframes pgeight {
+    from {
+        transform: rotate(0deg) translateX(150px) rotate(0deg);
     }
-     to {
-         transform: rotate(360deg) translateX(150px) rotate(-360deg);
+    to {
+        transform: rotate(360deg) translateX(150px) rotate(-360deg);
     }
 }
 
-.mainanimationpg9{
-     animation: pgnine 12s infinite linear;
-     position: relative;
+.mainanimationpg9 {
+    animation: pgnine 12s infinite linear;
+    position: relative;
 }
 
- .pgnine1{
+.pgnine1 {
     animation-duration: 12s;
 }
- .pgnine2{
-     animation-duration: 10s;
-}
- .pgnine3{
-    animation-duration: 8s;
-}
- .pgnine4{
-     animation-duration: 15s;
-}
- .pgnine5{
-    animation-duration: 13s;
-}
- .pgnine6{
-    animation-duration: 9s;
-}
- .pgnine7{
-     animation-duration: 15s;
-}
- .pgnine8{
+
+.pgnine2 {
     animation-duration: 10s;
 }
- .pgnine9{
+
+.pgnine3 {
+    animation-duration: 8s;
+}
+
+.pgnine4 {
+    animation-duration: 15s;
+}
+
+.pgnine5 {
     animation-duration: 13s;
 }
- .pgnine10{
-     animation-duration: 16s;
-}
- .pgnine11{
-     animation-duration: 8s;
-}
- .pgnine12{
-     animation-duration: 16s;
-}
- .pgnine13{
-     animation-duration: 10s;
+
+.pgnine6 {
+    animation-duration: 9s;
 }
 
- @keyframes pgnine{
-     0%{
-         transition: rotateY(0deg);
+.pgnine7 {
+    animation-duration: 15s;
+}
+
+.pgnine8 {
+    animation-duration: 10s;
+}
+
+.pgnine9 {
+    animation-duration: 13s;
+}
+
+.pgnine10 {
+    animation-duration: 16s;
+}
+
+.pgnine11 {
+    animation-duration: 8s;
+}
+
+.pgnine12 {
+    animation-duration: 16s;
+}
+
+.pgnine13 {
+    animation-duration: 10s;
+}
+
+@keyframes pgnine {
+    0% {
+        transition: rotateY(0deg);
     }
-     50%{
-         transform: rotateY(360deg);
+    50% {
+        transform: rotateY(360deg);
     }
-     100%{
-         transform: rotateY(0deg);
+    100% {
+        transform: rotateY(0deg);
     }
 }
 
-.mainanimation1pg10{
-     animation: pgten 9s infinite linear;
-     position: relative;   
+.mainanimation1pg10 {
+    animation: pgten 9s infinite linear;
+    position: relative;
 }
 
-.mainanimation2pg10{
-     animation: pgten2 9s infinite linear;
-     position: relative;   
+.mainanimation2pg10 {
+    animation: pgten2 9s infinite linear;
+    position: relative;
 }
 
- .pgten1{
-     animation-duration: 9s;
+.pgten1 {
+    animation-duration: 9s;
 }
- .pgten2{
-     animation-duration: 12s;
-}
- .pgten3{
-     animation-duration: 10s;
-}
- .pgten4{
-     animation-duration: 14s;
-}
- .pgten5{
-     animation-duration: 9s;
-}
- .pgten6{
-     animation-duration: 8s;
-}
- .pgten7{
-     animation-duration: 12s;
-}
- .pgten8{
-     animation-duration: 14s;
-}
- .pgten9{
-     animation-duration: 13s;
-}
- .pgten10{
-     animation-duration: 16s;
-}
- .pgten11{
-     animation-duration: 9s;
-}
- .pgten12{
-     animation-duration: 8s;
-}
- .pgten13{
-     animation-duration: 15s;
-}
- .pgten14{
-     animation-duration: 12s;
-}
- @keyframes pgten{
-     0%{
-         transform: rotateZ( 15deg);
-         left: 0%;
-         opacity: 100% 
-    }
-     50%{
-         transform: rotateZ(-15deg);
-         left: 100%;
-         opacity:0%;
-    }
-     100%{
-         transform: rotateZ(15deg);
-         left: 0%;
-         opacity: 100%;
-    }
-}
- @keyframes pgten2{
-     0%{
-         transform: rotateZ( 15deg);
-         right: 0%;
-         opacity: 100% 
-    }
-     50%{
-         transform: rotateZ(-15deg);
-         right: 100%;
-         opacity:0%;
-    }
-     100%{
-         transform: rotateZ(15deg);
-         right: 0%;
-         opacity: 100%;
-    }
-}
- .one:hover{
-     background-color: #ffdac5;
-}
- .two:hover{
-     background-color: #efff37;
-}
- .three:hover{
-     background-color: #b2ff50
-}
- .four:hover{
-     background-color: #33ff54;
-}
- .five:hover{
-     background-color: #a5ffbe;
-}
- .six:hover{
-     background-color: #00ffb2;
-}
- .seven:hover{
-     background-color: #00ffff;
-}
- .eight:hover{
-     background-color: #cccbff;
-}
- .nine:hover{
-     background-color: #d1d0d0;
-}
- .ten:hover{
-     background-color: #6c001a;
-}
- @media screen and (max-width: 1200px) {
-     
-     .mainfooter{
-         font-size: 2rem;
-         margin-left: 3%;
-     }
 
+.pgten2 {
+    animation-duration: 12s;
+}
 
-     .footer1{
-         margin-top: 3rem;
+.pgten3 {
+    animation-duration: 10s;
+}
+
+.pgten4 {
+    animation-duration: 14s;
+}
+
+.pgten5 {
+    animation-duration: 9s;
+}
+
+.pgten6 {
+    animation-duration: 8s;
+}
+
+.pgten7 {
+    animation-duration: 12s;
+}
+
+.pgten8 {
+    animation-duration: 14s;
+}
+
+.pgten9 {
+    animation-duration: 13s;
+}
+
+.pgten10 {
+    animation-duration: 16s;
+}
+
+.pgten11 {
+    animation-duration: 9s;
+}
+
+.pgten12 {
+    animation-duration: 8s;
+}
+
+.pgten13 {
+    animation-duration: 15s;
+}
+
+.pgten14 {
+    animation-duration: 12s;
+}
+
+@keyframes pgten {
+    0% {
+        transform: rotateZ( 15deg);
+        left: 0%;
+        opacity: 100%
     }
-     .footer2{
-     
-         margin-top: 1rem;
-        
+    50% {
+        transform: rotateZ(-15deg);
+        left: 100%;
+        opacity: 0%;
     }
-     .footer3{
-         margin-top: 1rem;
-        
-        
-    }
-     .container{
-         margin-top: 6rem;
-    }
-     .containerpg1{
-         margin-top: none;
-         overflow-x: hidden;
+    100% {
+        transform: rotateZ(15deg);
+        left: 0%;
+        opacity: 100%;
     }
 }
- @media screen and (max-width: 755px) {
-     .box{
-         padding: .5rem;
-         padding-left:.6rem;
-         width: 90%;
-    }
 
-    .mainfooter{
-    column-gap: 10%;
-    font-size: 1.7rem;
+@keyframes pgten2 {
+    0% {
+        transform: rotateZ( 15deg);
+        right: 0%;
+        opacity: 100%
     }
-
-     .footer2{
-         margin-top: 1rem;
-          margin-left: 3%;
+    50% {
+        transform: rotateZ(-15deg);
+        right: 100%;
+        opacity: 0%;
     }
-     .footer3{
-         margin-top: -4rem;
-         margin-left: 3%;
-    }
-
-     .containerpg1{
-         margin-top: none;
-         margin-bottom: -5rem;
-         position: static;
-         overflow-y: hidden;
-         overflow-x: hidden;
+    100% {
+        transform: rotateZ(15deg);
+        right: 0%;
+        opacity: 100%;
     }
 }
- @media screen and (max-width: 376px) {
-     .box{
-         font-size: 1rem;
-         height: 10rem;
-         width: 90%;
-    }
 
-    .mainfooter{
+.one:hover {
+    background-color: #ffdac5;
+}
+
+.two:hover {
+    background-color: #efff37;
+}
+
+.three:hover {
+    background-color: #b2ff50
+}
+
+.four:hover {
+    background-color: #33ff54;
+}
+
+.five:hover {
+    background-color: #a5ffbe;
+}
+
+.six:hover {
+    background-color: #00ffb2;
+}
+
+.seven:hover {
+    background-color: #00ffff;
+}
+
+.eight:hover {
+    background-color: #cccbff;
+}
+
+.nine:hover {
+    background-color: #d1d0d0;
+}
+
+.ten:hover {
+    background-color: #6c001a;
+}
+
+@media screen and (max-width: 1200px) {
+    .mainfooter {
+        font-size: 2rem;
+        margin-left: 3%;
+    }
+    .footer1 {
+        margin-top: 3rem;
+    }
+    .footer2 {
+        margin-top: 1rem;
+    }
+    .footer3 {
+        margin-top: 1rem;
+    }
+    .container {
+        margin-top: 6rem;
+    }
+    .containerpg1 {
+        margin-top: none;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 755px) {
+    .box {
+        padding: .5rem;
+        padding-left: .6rem;
+        width: 90%;
+    }
+    .mainfooter {
+        column-gap: 10%;
+        font-size: 1.7rem;
+    }
+    .footer2 {
+        margin-top: 1rem;
+        margin-left: 3%;
+    }
+    .footer3 {
+        margin-top: -4rem;
+        margin-left: 3%;
+    }
+    .containerpg1 {
+        margin-top: none;
+        margin-bottom: -5rem;
+        position: static;
+        overflow-y: hidden;
+        overflow-x: hidden;
+    }
+}
+
+@media screen and (max-width: 376px) {
+    .box {
+        font-size: 1rem;
+        height: 10rem;
+        width: 90%;
+    }
+    .mainfooter {
         font-size: 1rem;
         column-gap: 19%;
     }
-
-
-     .footer1{
-         margin-top: .9rem;
-         margin-bottom: none;
+    .footer1 {
+        margin-top: .9rem;
+        margin-bottom: none;
     }
-     .footer2{
-         margin-top: .9rem;
-        
+    .footer2 {
+        margin-top: .9rem;
     }
-     .footer3{
-         margin-top: -5rem;
+    .footer3 {
+        margin-top: -5rem;
     }
-     .containerpg1{
-         margin-top: none;
-         margin-bottom: -5rem;
-         position: static;
-         overflow-y: hidden;
-         overflow-x: hidden;
+    .containerpg1 {
+        margin-top: none;
+        margin-bottom: -5rem;
+        position: static;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
-     .container{
-         margin-top: 0rem;
-         margin-bottom: .9rem;
-         position: static;
-         overflow-y: hidden;
-         overflow-x: hidden;
+    .container {
+        margin-top: 0rem;
+        margin-bottom: .9rem;
+        position: static;
+        overflow-y: hidden;
+        overflow-x: hidden;
     }
-     p{
-         vertical-align: middle;
+    p {
+        vertical-align: middle;
     }
-     body{
-         overflow-x: hidden;
+    body {
+        overflow-x: hidden;
     }
 }
 
