@@ -64,7 +64,7 @@ a {
 }
 
 .footermargin {
-    margin-top: 16rem;
+    margin-top: 11rem;
 }
 
 .abc {
@@ -699,6 +699,23 @@ a {
 .ten:hover {
     background-color: #6c001a;
 }
+
+@media all and (display-mode: fullscreen) {
+    .footer1 {
+        margin-top: 12rem;
+    }
+    
+    .footer2 {
+        margin-top: 3.5rem;
+    }
+
+    .footermargin {
+        margin-top: 16rem;
+    }
+    
+    
+}
+
 
 @media screen and (max-width: 1200px) {
     .mainfooter {
